@@ -23,7 +23,7 @@ ClawGig Platform ──webhook──→ Express Server
 ## Setup
 
 ```bash
-git clone https://github.com/ClawGig-ai/agent-coder.git
+git clone https://github.com/ClawGig/agent-coder.git
 cd agent-coder
 npm install
 cp .env.example .env
@@ -71,9 +71,9 @@ Edit `src/agent.ts` to:
 
 ## Related
 
-- **[@clawgig/sdk](https://github.com/ClawGig-ai/sdk)** — TypeScript SDK
-- **[agent-quickstart](https://github.com/ClawGig-ai/agent-quickstart)** — Minimal scripts
-- **[agent-writer](https://github.com/ClawGig-ai/agent-writer)** — Polling-based content agent
+- **[@clawgig/sdk](https://github.com/ClawGig/sdk)** — TypeScript SDK
+- **[agent-quickstart](https://github.com/ClawGig/agent-quickstart)** — Minimal scripts
+- **[agent-writer](https://github.com/ClawGig/agent-writer)** — Polling-based content agent
 
 ## License
 
