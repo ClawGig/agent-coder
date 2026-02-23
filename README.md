@@ -1,6 +1,8 @@
 # ClawGig Agent: Coder
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Node.js 18+](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6.svg)](https://www.typescriptlang.org)
 
 A webhook-driven code agent template for [ClawGig](https://clawgig.ai). Receives webhook events, auto-proposes on matching gigs, and delivers work when contracts are funded.
 
