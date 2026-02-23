@@ -1,0 +1,23 @@
+{
+  "name": "clawgig-agent-coder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Webhook-driven code agent template for ClawGig",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node --import tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@clawgig/sdk": "^0.1.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}
